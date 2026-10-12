@@ -1,55 +1,26 @@
-# bon-voyage-travel-planner
-A responsive travel itinerary planner built using HTML, CSS, and JavaScript to organize trips, destinations, travel schedules, accommodation, budgets, and important documents in one place.
-# Bon Voyage – Travel Itinerary Planner
+# Bon Voyage — Travel Itinerary Planner
 
-## About the Project
+A student-made travel planner built with plain HTML, CSS and JavaScript. It keeps trip dates, places, activities, transport, accommodation, budgets and emergency notes together.
 
-Bon Voyage is a travel itinerary planner website developed using HTML, CSS, and JavaScript. It helps users organize their travel plans in one place instead of managing details across different applications.
+## Run the project
 
-Users can create trips, add destinations, manage travel schedules, save accommodation details, track budgets, and keep a checklist of important travel documents.
+1. Download and extract the project folder.
+2. Open the folder in Visual Studio Code.
+3. Open `index.html` in a browser, or use the Live Server extension.
 
-The website has a simple and responsive design with a cream and blue light theme and a black and red dark theme.
+No build tools are required. Destination photos and web fonts need an internet connection.
 
-## Features
+## Main files
 
-- User registration and login demo
-- Create, edit, view, and delete trips
-- Add destinations, cities, and landmarks
-- Manage departure and arrival dates and times
-- Store transportation and accommodation details
-- Plan activities, tours, and dining reservations
-- Separate checkboxes for passport, visa, and travel insurance
-- Add emergency contacts, budgets, and backup plans
-- Search and filter trips
-- Mark favourite trips
-- Print itineraries or save them as PDF
-- Responsive design for desktop, tablet, and mobile
-- Light mode and dark mode
+- `index.html` — page layout, trip form and login form.
+- `style.css` — colours, layout, responsive styling and light/dark themes.
+- `script.js` — trip creation, editing, deleting, favourites, search, printing and demo login.
+- `logo.svg` — used for both the website logo and browser favicon.
 
-## Technologies Used
+## A note about data
 
-- HTML – Website structure
-- CSS – Styling, layouts, themes, and responsive design
-- JavaScript – Trip management and interactive features
+This is a front-end learning project. It stores information in the current browser using `localStorage`; it does not have a secure server or sync trips between devices. Please use demo details rather than a real password.
 
-## How to Run the Project
+## Made by
 
-1. Download or clone this repository.
-2. Extract the project files if you downloaded a ZIP.
-3. Open the project folder in Visual Studio Code.
-4. Open `index.html` in your browser, or use the Live Server extension.
-5. Explore the website and try creating your own travel itinerary.
-
-## Project Team
-
-- Tarun Kumar
-- Rohit Maiti
-- Piyush Kumar
-
-## Note
-
-This project is created for educational purposes. It uses browser-side storage for saving trip information, so the data is not automatically shared between devices. The login feature is a front-end demonstration and is not a production authentication system.
-
----
-
-**Bon Voyage – Plan your trip, enjoy the journey!**
+Tarun Kumar, Rohit Maiti and Piyush Kumar.
